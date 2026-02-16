@@ -1,0 +1,8 @@
+baseURL = 'https://blog.snu-o.com/'
+languageCode = 'ja-jp'
+title = 'CLIMB MODESTLY'
+theme = 'hugo-bearblog'
+
+[params]
+    author = "Kento"
+    description = "My blog"
