@@ -1,0 +1,7 @@
+ M "content/test page 1/index.md"
+ M hugo.toml
+ M themes/hugo-bearblog
+?? .hugo_build.lock
+?? git-push.bat
+?? preview_local.bat
+?? temp_git_status.txt
