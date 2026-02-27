@@ -1,3 +1,4 @@
- M "content/test page 1/index.md"
+ M .github/workflows/deploy.yml
+ M hugo.toml
  M temp_git_status.txt
  M themes/hugo-bearblog

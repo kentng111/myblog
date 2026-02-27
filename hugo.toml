@@ -1,8 +1,23 @@
 baseURL = "https://blog.snu-o.com/"
 languageCode = 'ja-jp'
 title = 'CLIMB MODESTLY'
-theme = 'hugo-bearblog'
+theme = 'Hugo Bear Blog'
 
 [params]
-    author = "Kento"
-    description = "My blog"
+  author = "Kento"
+  ShowReadingTime = false
+  defaultTheme = "auto"
+  BookToC = false
+  BookDateFormat = "2006-01-02"
+  BookTheme = "auto"
+  BookSearch = true
+  BookSection = '*'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      hardWraps = true
+
+[permalinks]
+  posts = "/:title/"
