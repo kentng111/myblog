@@ -1,7 +1,7 @@
 baseURL = "https://blog.snu-o.com/"
 languageCode = 'ja-jp'
 title = 'CLIMB MODESTLY'
-theme = 'Hugo Bear Blog'
+theme = 'hugo-bearblog'
 
 [params]
   author = "Kento"
@@ -21,3 +21,6 @@ theme = 'Hugo Bear Blog'
 
 [permalinks]
   posts = "/:title/"
+
+[outputs]
+  home = ["HTML", "RSS"]

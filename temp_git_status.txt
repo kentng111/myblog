@@ -1,4 +1,5 @@
- M .github/workflows/deploy.yml
  M hugo.toml
  M temp_git_status.txt
  M themes/hugo-bearblog
+?? content/_index.md
+?? layouts/
